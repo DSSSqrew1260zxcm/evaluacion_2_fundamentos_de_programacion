@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 07:38:25 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEwOzIwMjMtMTAtMDI7MDc6MTQ6MzMgcC4gbS47MjgyMg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEwOzIwMjMtMTAtMDI7MDc6Mzg6MjUgcC4gbS47MTsyOTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cali" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce tu calificaci&#243;n: &quot;" newline="True"/>
+            <input variable="cali"/>
+            <if expression="cali &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobaste!!!!! Quema tus apuntes!!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NA  -  Sin llorar!!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
