@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 08:29:44 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE3OzIwMjMtMTAtMDk7MDg6MDc6NDEgcC4gbS47MjgzOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE3OzIwMjMtMTAtMDk7MDg6Mjk6NDQgcC4gbS47NDsyOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa el primer valor:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Ingresa el segundo valor:&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1 &gt; num2">
+                <then>
+                    <output expression="&quot;El n&#250;mero m&#225;s grande es &quot;" newline="False"/>
+                    <output expression="num1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1 = num2">
+                        <then>
+                            <output expression="num1" newline="False"/>
+                            <output expression="&quot; es igual a &quot;" newline="False"/>
+                            <output expression="num2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;El n&#250;mero m&#225;s peque&#241;o es &quot;" newline="False"/>
+                            <output expression="num1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
